@@ -1,6 +1,8 @@
+import { useContext } from "react";
+import { ThemeContext } from "./Panel";
 
-
-const InnerBox=({theme}:any)=>{
+const InnerBox=()=>{
+    const theme = useContext(ThemeContext);
     
     return(
         <div className={`innerDiv ${theme === 'light' ? 'lightMode' : 'darkMode'}`}>

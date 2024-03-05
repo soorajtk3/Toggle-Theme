@@ -1,4 +1,4 @@
-import Panel from './Components/Panel'
+import {Panel} from './Components/Panel'
 import './App.css'
 
 function App() {
